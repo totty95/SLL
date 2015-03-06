@@ -41,7 +41,7 @@ public class LinkedList {
         Node ins = new Node(elem);
         int currPos = 0;
         for(Node curr = this.first; curr != null; curr = curr.next){
-            if()
+            
             if(pos == currPos+1){
                 ins.next = curr.next;
                 curr.next = ins;
